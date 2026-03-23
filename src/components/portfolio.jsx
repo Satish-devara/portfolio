@@ -172,9 +172,9 @@ function Hero() {
         {/* Profile Photo Tag Added Here */}
         <div style={{ marginBottom: 24, display: "flex", justifyContent: "center" }}>
           <img 
-            src="mine/my-portfolio/public/photo.png" 
+            src="../public/phto.jpg" 
             alt="Sai Satish Devara" 
-            style={{ width: 150, height: 150, borderRadius: "50%", border: "4px solid #00d4ff", objectFit: "cover", boxShadow: "0 0 20px rgba(0,212,255,0.3)" }} 
+            style={{ width: 350, height: 350, borderRadius: "50%", border: "4px solid #00d4ff", objectFit: "cover", boxShadow: "0 0 20px rgba(0,212,255,0.3)", padding: 4, animation: "fadeDown 0.8s ease" }} 
           />
         </div>
 
@@ -183,7 +183,7 @@ function Hero() {
           <span style={{ color: "#00d4ff", fontSize: 13, fontFamily: "'DM Mono', monospace", letterSpacing: 1 }}>Available for opportunities</span>
         </div>
 
-        <h1 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(2.8rem, 7vw, 5.5rem)", lineHeight: 1.05, color: "#fff", margin: "0 0 16px", animation: "fadeUp 0.9s ease 0.1s both" }}>
+        <h1 style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "clamp(1.8rem, 7vw, 2.5rem)", lineHeight: 1.05, color: "#fff", margin: "0 0 16px", animation: "fadeUp 0.9s ease 0.1s both" }}>
           Sai Satish<br />
           <span style={{ background: "linear-gradient(135deg, #00d4ff, #0099cc)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Devara</span>
         </h1>
@@ -421,10 +421,10 @@ function Projects() {
 }
 
 const CERTS = [
-  { name: "Angular", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1L00-cYJcg-EzmCsjld8OWp_aNAldGQpB/view?usp=sharing", img: "/cert1.jpg" },
-  { name: "MERN Stack", issuer: "w3Grad Schools", date: "Jul 2025", href: "https://drive.google.com/file/d/12vj80hef2JBIz2mLEk-iEBqERaZ3eXVR/view?usp=drive_link", img: "/cert2.jpg" },
-  { name: "TypeScript", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1ceLJx8fNwB9DyBz22plCr_Ou5dAy_DwZ/view?usp=sharing", img: "/cert3.jpg" },
-  { name: "JavaScript", issuer: "Infosys Springboard", date: "Jun 2025", href: "https://drive.google.com/file/d/1s6gNnSrppxKGwtkeKC_qhSlgxcg5XfBN/view?usp=sharing", img: "/cert4.jpg" },
+  { name: "Angular", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1L00-cYJcg-EzmCsjld8OWp_aNAldGQpB/view?usp=sharing", img: "../public/cert1.png" },
+  { name: "MERN Stack", issuer: "w3Grad Schools", date: "Jul 2025", href: "https://drive.google.com/file/d/12vj80hef2JBIz2mLEk-iEBqERaZ3eXVR/view?usp=drive_link", img: "../public/cert2.png" },
+  { name: "TypeScript", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1ceLJx8fNwB9DyBz22plCr_Ou5dAy_DwZ/view?usp=sharing", img: "../public/cert3.png" },
+  { name: "JavaScript", issuer: "Infosys Springboard", date: "Jun 2025", href: "https://drive.google.com/file/d/1s6gNnSrppxKGwtkeKC_qhSlgxcg5XfBN/view?usp=sharing", img: "../public/cert4.png" },
 ];
 
 function Training() {
