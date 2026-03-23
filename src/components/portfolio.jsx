@@ -172,7 +172,7 @@ function Hero() {
         {/* Profile Photo Tag Added Here */}
         <div style={{ marginBottom: 24, display: "flex", justifyContent: "center" }}>
           <img 
-            src="../public/phto.jpg" 
+            src="/phto.jpg" 
             alt="Sai Satish Devara" 
             style={{ width: 350, height: 350, borderRadius: "50%", border: "4px solid #00d4ff", objectFit: "cover", boxShadow: "0 0 20px rgba(0,212,255,0.3)", padding: 4, animation: "fadeDown 0.8s ease" }} 
           />
@@ -421,10 +421,10 @@ function Projects() {
 }
 
 const CERTS = [
-  { name: "Angular", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1L00-cYJcg-EzmCsjld8OWp_aNAldGQpB/view?usp=sharing", img: "../public/cert1.png" },
-  { name: "MERN Stack", issuer: "w3Grad Schools", date: "Jul 2025", href: "https://drive.google.com/file/d/12vj80hef2JBIz2mLEk-iEBqERaZ3eXVR/view?usp=drive_link", img: "../public/cert2.png" },
-  { name: "TypeScript", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1ceLJx8fNwB9DyBz22plCr_Ou5dAy_DwZ/view?usp=sharing", img: "../public/cert3.png" },
-  { name: "JavaScript", issuer: "Infosys Springboard", date: "Jun 2025", href: "https://drive.google.com/file/d/1s6gNnSrppxKGwtkeKC_qhSlgxcg5XfBN/view?usp=sharing", img: "../public/cert4.png" },
+  { name: "Angular", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1L00-cYJcg-EzmCsjld8OWp_aNAldGQpB/view?usp=sharing", img: "/cert1.png" },
+  { name: "MERN Stack", issuer: "w3Grad Schools", date: "Jul 2025", href: "https://drive.google.com/file/d/12vj80hef2JBIz2mLEk-iEBqERaZ3eXVR/view?usp=drive_link", img: "/cert2.png" },
+  { name: "TypeScript", issuer: "Infosys Springboard", date: "Jul 2025", href: "https://drive.google.com/file/d/1ceLJx8fNwB9DyBz22plCr_Ou5dAy_DwZ/view?usp=sharing", img: "/cert3.png" },
+  { name: "JavaScript", issuer: "Infosys Springboard", date: "Jun 2025", href: "https://drive.google.com/file/d/1s6gNnSrppxKGwtkeKC_qhSlgxcg5XfBN/view?usp=sharing", img: "/cert4.png" },
 ];
 
 function Training() {
