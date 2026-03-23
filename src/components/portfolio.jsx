@@ -189,7 +189,7 @@ function Hero() {
         </h1>
 
         <p style={{ fontFamily: "'DM Mono', monospace", fontSize: "clamp(1rem, 2.5vw, 1.35rem)", color: "#64748b", marginBottom: 28, animation: "fadeUp 0.9s ease 0.2s both" }}>
-          <Typewriter words={["Full-Stack Developer", "MERN Stack Engineer", "AI Integration Enthusiast", "Problem Solver"]} />
+          <Typewriter words={["Full-Stack Developer", "MERN Stack Engineer", "AI Integration Enthusiast"]} />
         </p>
 
         <p style={{ color: "#94a3b8", fontSize: 16, lineHeight: 1.8, maxWidth: 560, margin: "0 auto 44px", animation: "fadeUp 0.9s ease 0.3s both" }}>
